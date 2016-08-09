@@ -5,8 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>San Digeo Top Spots 2.0</title>
+
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="style.css">     	
+        <link rel="stylesheet" href="style.css">   
+        <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />  	
     </head>
 
     <body ng-controller="SDTopSpots" class="body">
@@ -37,9 +39,13 @@
 			</table>
 		</div>
 
+		 <div id="mapid">
+		 </div>
+
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
         <script src="index.js"></script>
     </body>
 </html>
